@@ -85,9 +85,9 @@ Supaya lebih paham cara kerja materi Pertemuan 1 dan 2, berikut adalah langkah-l
 
 #### 3. Contoh Interaksi Sederhana
 * Buat desain *Form* dengan menambahkan beberapa komponen dari *Toolbox*:
-  * Tiga buah **Label** dengan nama (Nama, NIM, KOM)
+  * Tiga buah **Label** dengan nama (`Nama`, `NIM`, dan `KOM`)
   * Tiga buah **TextBox** dengan properti *Name*: `txtNama`, `txtNIM`, dan `txtKOM`
-  * Tiga buah **Button** (Tombol Tampilkan, Hapus, Keluar)
+  * Tiga buah **Button** (`Tampilkan`, `Hapus`, dan `Keluar`)
 * Klik dua kali pada *Button* tersebut untuk membuka editor kode (*code-behind*), lalu masukkan baris kode berikut:
 
   ```vb
