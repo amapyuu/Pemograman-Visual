@@ -1,6 +1,4 @@
-# Pemograman-Visual
-
-# 💻 Pertemuan 2: Pengenalan Komponen Visual & Antarmuka Windows Forms
+# 💻 Repositori Praktikum Pemrograman Visual
 
 <div align="center">
 
@@ -11,11 +9,65 @@
 </div>
 
 ---
-📌 Pertemuan 1 - Pengenalan Pemrograman Visual📖 Ringkasan Materi: Konsep Dasar Pemrograman VisualPada sesi perkuliahan Pertemuan 1, materi difokuskan pada pengenalan konsep fundamental mengenai apa itu pemrograman visual dan bagaimana perbedaannya dengan pemrograman konvensional berbasis teks.Pemrograman Visual adalah cara membuat tampilan UI (User Interface) suatu aplikasi bukan dengan mengetikkan baris kode secara manual, melainkan menggunakan komponen-komponen visual grafis yang perubahan wujud dan tata letaknya tampak secara langsung saat itu juga (real-time).Jika pemrograman biasa memerlukan proses kompilasi atau run terlebih dahulu untuk melihat hasil perubahan tampilan, maka pemrograman visual tidak memerlukannya. Pengembang dapat mendesain aplikasi secara interaktif menggunakan berbagai komponen yang tersedia (seperti Button, TextBox, Label, dan lain-lain). Sesudah tampilan visual selesai dibuat, tahap berikutnya adalah menuliskan kode (code-behind) agar masing-masing komponen dapat berfungsi secara aktif ketika berinteraksi dengan pengguna.⚖️ Perbandingan Paradigma PemrogramanParameter PerbandinganPemrograman KonvensionalPemrograman VisualProses Perancangan UIMenulis kode manual secara penuh untuk mendefinisikan posisi, ukuran, dan bentuk elemen.Menyusun komponen secara langsung menggunakan teknik visual di atas kanvas kerja.Umpan Balik TampilanHarus menjalankan program (run) terlebih dahulu untuk melihat hasil akhir tata letak.Perubahan elemen tampak langsung seketika (real-time) tanpa harus melakukan compiling ulang tata letak.Fokus PengembanganSintaks murni dan logika program berbasis teks tersembunyi.Keseimbangan antara estetika visual (design-time) dan logika fungsi di baliknya (code-behind).🛠️ Ekosistem Teknologi PendukungSeluruh rangkaian proses pembelajaran dan praktik pengembangan perangkat lunak pada mata kuliah ini didukung oleh kombinasi perangkat modern berikut:Visual Basic: Bahasa pemrograman utama yang dipilih karena menawarkan struktur sintaks yang terstruktur, ramah pemula, serta mudah dipahami dalam membangun logika aplikasi.Visual Studio: Lingkungan Pengembangan Terpadu (IDE) andal yang menyediakan fasilitas perancangan visual secara instan dan pengeditan kode yang komprehensif.Platform .NET: Kerangka kerja (framework) komprehensif yang menyediakan pustaka kelas (class libraries) dan infrastruktur andal untuk membangun serta mengeksekusi aplikasi desktop berbasis Windows.📌 Pertemuan 2 - Komponen Visual & Antarmuka Windows Forms📖 Ringkasan Materi: Eksplorasi Komponen VisualPada sesi perkuliahan Pertemuan 2, materi utama difokuskan secara mendalam pada pengenalan serta pengaplikasian berbagai komponen visual (control) di dalam lingkungan kerja Visual Studio. Hal ini bertujuan untuk membangun antarmuka pengguna (User Interface / UI) yang interaktif dan fungsional pada aplikasi berbasis Windows Forms.Paradigma Pemrograman Visual menawarkan cara kerja yang intuitif dalam merancang tampilan aplikasi. Alih-alih membangun elemen secara manual menggunakan baris kode teks, pengembang dapat menyusun antarmuka menggunakan komponen grafis yang perubahan visualnya dapat dilihat secara langsung seketika itu juga.🧩 Komponen Dasar Antarmuka (Controls)Dalam mengeksplorasi pembuatan aplikasi Windows Forms, terdapat beberapa elemen esensial yang dipelajari dan wajib dikuasai:Form: Berperan sebagai jendela utama atau wadah (container) fundamental tempat seluruh komponen dan kontrol pendukung lainnya diletakkan.Label: Berfungsi untuk menyajikan dan menampilkan teks statis kepada pengguna, seperti judul, keterangan, atau instruksi informatif.TextBox: Komponen interaktif yang bertugas untuk menerima masukan berupa teks (input) langsung dari pengguna aplikasi.Button: Elemen sentuh berbentuk tombol yang dirancang khusus untuk memicu suatu aksi atau event tertentu ketika diklik oleh pengguna.⚙️ Karakteristik: Properti dan Sistem Event-DrivenSetiap komponen visual yang disematkan memiliki karakteristik dan mekanisme interaksi yang kuat:Pengaturan Properti (Properties)Setiap komponen dilengkapi dengan berbagai atribut bawaan—seperti Name, Text, Size, dan Location—yang dapat dikonfigurasi dan diatur secara langsung melalui jendela Properties di Visual Studio, sehingga pengembang tidak perlu menuliskan sintaks pengaturannya sebagai kode terlebih dahulu.Sistem Pengelolaan Event (Event Handling)Selain atribut visual, tiap komponen juga memiliki event bawaan (misalnya peristiwa Click pada tombol atau TextChanged pada kolom teks). Setelah tampilan selesai dirancang, bagian ini dapat disisipi baris kode (code-behind) agar komponen tersebut mampu merespons setiap interaksi yang dilakukan oleh pengguna secara dinamis.
-## 🛠️ Ekosistem Teknologi Pendukung
 
-Seluruh rangkaian proses pembelajaran dan praktik pengembangan perangkat lunak pada mata kuliah ini didukung oleh kombinasi perangkat berikut:
-* **Visual Basic**: Bahasa pemrograman utama yang dipilih karena menawarkan struktur sintaks yang ramah pemula dan mudah dipahami.
-* **Visual Studio**: Lingkungan Pengembangan Terpadu (*IDE*) andal yang menyediakan fasilitas perancangan visual secara instan.
-* **Platform .NET**: Kerangka kerja komprehensif yang menyediakan pustaka dan infrastruktur andal untuk mengeksekusi aplikasi desktop.
+## 📌 Pertemuan 1 - Pengenalan Pemrograman Visual
 
+### 📖 Ringkasan Materi: Konsep Dasar Pemrograman Visual
+
+Pada sesi perkuliahan **Pertemuan 1**, materi difokuskan pada pengenalan konsep fundamental mengenai apa itu pemrograman visual dan bagaimana perbedaannya dengan pemrograman konvensional berbasis teks.
+
+**Pemrograman Visual** adalah cara membuat tampilan UI (*User Interface*) suatu aplikasi bukan dengan mengetikkan baris kode secara manual, melainkan menggunakan komponen-komponen visual grafis yang perubahan wujud dan tata letaknya tampak secara langsung saat itu juga (*real-time*).
+
+Jika pemrograman biasa memerlukan proses kompilasi atau *run* terlebih dahulu untuk melihat hasil perubahan tampilan, maka pemrograman visual tidak memerlukannya. Pengembang dapat mendesain aplikasi secara interaktif menggunakan berbagai komponen yang tersedia (seperti `Button`, `TextBox`, `Label`, dan lain-lain). Sesudah tampilan visual selesai dibuat, tahap berikutnya adalah menuliskan kode (*code-behind*) agar masing-masing komponen dapat berfungsi secara aktif ketika berinteraksi dengan pengguna.
+
+---
+
+### ⚖️ Perbandingan Paradigma Pemrograman
+
+| Parameter Perbandingan | Pemrograman Konvensional | Pemrograman Visual |
+| :--- | :--- | :--- |
+| **Proses Perancangan UI** | Menulis kode manual secara penuh untuk mendefinisikan posisi, ukuran, dan bentuk elemen. | Menyusun komponen secara langsung menggunakan teknik visual di atas kanvas kerja. |
+| **Umpan Balik Tampilan** | Harus menjalankan program (*run*) terlebih dahulu untuk melihat hasil akhir tata letak. | Perubahan elemen tampak langsung seketika (*real-time*) tanpa harus melakukan *compiling* ulang tata letak. |
+| **Fokus Pengembangan** | Sintaks murni dan logika program berbasis teks tersembunyi. | Keseimbangan antara estetika visual (*design-time*) dan logika fungsi di baliknya (*code-behind*). |
+
+---
+
+### 🛠️ Ekosistem Teknologi Pendukung
+
+Seluruh rangkaian proses pembelajaran dan praktik pengembangan perangkat lunak pada mata kuliah ini didukung oleh kombinasi perangkat modern berikut:
+* **Visual Basic**: Bahasa pemrograman utama yang dipilih karena menawarkan struktur sintaks yang terstruktur, ramah pemula, serta mudah dipahami dalam membangun logika aplikasi.
+* **Visual Studio**: Lingkungan Pengembangan Terpadu (*IDE*) andal yang menyediakan fasilitas perancangan visual secara instan dan pengeditan kode yang komprehensif.
+* **Platform .NET**: Kerangka kerja (*framework*) komprehensif yang menyediakan pustaka kelas (*class libraries*) dan infrastruktur andal untuk membangun serta mengeksekusi aplikasi desktop berbasis Windows.
+
+---
+---
+
+## 📌 Pertemuan 2 - Komponen Visual & Antarmuka Windows Forms
+
+### 📖 Ringkasan Materi: Eksplorasi Komponen Visual
+
+Pada sesi perkuliahan **Pertemuan 2**, materi utama difokuskan secara mendalam pada pengenalan serta pengaplikasian berbagai **komponen visual (*control*)** di dalam lingkungan kerja Visual Studio. Hal ini bertujuan untuk membangun antarmuka pengguna (*User Interface / UI*) yang interaktif dan fungsional pada aplikasi berbasis *Windows Forms*.
+
+Paradigma Pemrograman Visual menawarkan cara kerja yang intuitif dalam merancang tampilan aplikasi. Alih-alih membangun elemen secara manual menggunakan baris kode teks, pengembang dapat menyusun antarmuka menggunakan komponen grafis yang perubahan visualnya dapat dilihat secara langsung seketika itu juga.
+
+---
+
+### 🧩 Komponen Dasar Antarmuka (*Controls*)
+
+Dalam mengeksplorasi pembuatan aplikasi Windows Forms, terdapat beberapa elemen esensial yang dipelajari dan wajib dikuasai:
+* **Form**: Berperan sebagai jendela utama atau wadah (*container*) fundamental tempat seluruh komponen dan kontrol pendukung lainnya diletakkan.
+* **Label**: Berfungsi untuk menyajikan dan menampilkan teks statis kepada pengguna, seperti judul, keterangan, atau instruksi informatif.
+* **TextBox**: Komponen interaktif yang bertugas untuk menerima masukan berupa teks (*input*) langsung dari pengguna aplikasi.
+* **Button**: Elemen sentuh berbentuk tombol yang dirancang khusus untuk memicu suatu aksi atau *event* tertentu ketika diklik oleh pengguna.
+
+---
+
+### ⚙️ Karakteristik: Properti dan Sistem *Event-Driven*
+
+Setiap komponen visual yang disematkan memiliki karakteristik dan mekanisme interaksi yang kuat:
+
+1. **Pengaturan Properti (`Properties`)**  
+   Setiap komponen dilengkapi dengan berbagai atribut bawaan—seperti `Name`, `Text`, `Size`, dan `Location`—yang dapat dikonfigurasi dan diatur secara langsung melalui jendela *Properties* di Visual Studio, sehingga pengembang tidak perlu menuliskan sintaks pengaturannya sebagai kode terlebih dahulu.
+
+2. **Sistem Pengelolaan *Event* (`Event Handling`)**  
+   Selain atribut visual, tiap komponen juga memiliki *event* bawaan (misalnya peristiwa `Click` pada tombol atau `TextChanged` pada kolom teks). Setelah tampilan selesai dirancang, bagian ini dapat disisipi baris kode (*code-behind*) agar komponen tersebut mampu merespons setiap interaksi yang dilakukan oleh pengguna secara dinamis.
