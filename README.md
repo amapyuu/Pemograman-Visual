@@ -76,7 +76,7 @@ Supaya lebih paham cara kerja materi Pertemuan 1 dan 2, berikut adalah langkah-l
 #### 1. Membuat Project Baru
 * Buka **Visual Studio**, lalu pilih **Create a new project**.
 * Cari template **Windows Forms App** yang menggunakan bahasa **Visual Basic**, lalu klik **Next**.
-* Beri nama project (contoh: `Pertemuan2-Komponen-visual`) lalu klik **Create**.
+* Beri nama project (contoh: `Pertemuan2PemVi`) lalu klik **Create**.
 
 #### 2. Mengenal Area Kerja
 * **Form Designer**: Kanvas tempat Anda mendesain tampilan aplikasi secara visual.
