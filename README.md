@@ -18,10 +18,12 @@
 
 ## ♡ Daftar Isi
 
-- ♡ [Pertemuan 1 — Pengenalan Pemrograman Visual](#-pertemuan-1--pengenalan-pemrograman-visual)
-- ♡ [Pertemuan 2 — Komponen Visual & Antarmuka Windows Forms](#-pertemuan-2--komponen-visual--antarmuka-windows-forms)
-- ♡ [Pertemuan 3 — Operator, Struktur Pengendalian & Validasi Input](#-pertemuan-3--operator-struktur-pengendalian--validasi-input)
-- ♡ [Teknologi](#-teknologi)
+## ♡ Daftar Isi
+
+- ♡ [Pertemuan 1 — Pengenalan Pemrograman Visual](#-pengenalan-pemrograman-visual-)
+- ♡ [Pertemuan 2 — Komponen Visual & Antarmuka Windows Forms](#-komponen-visual--antarmuka-windows-forms-)
+- ♡ [Pertemuan 3 — Operator, Struktur Pengendalian & Validasi Input](#-operator-struktur-pengendalian--validasi-input-)
+- ♡ [Teknologi](#-teknologi-)
 
 ---
 
