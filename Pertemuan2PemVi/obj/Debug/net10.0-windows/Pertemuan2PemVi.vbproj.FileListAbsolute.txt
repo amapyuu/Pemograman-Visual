@@ -1,0 +1,16 @@
+D:\PemogramanVisual\Pertemuan2PemVi\Pertemuan2PemVi\bin\Debug\net10.0-windows\Pertemuan2PemVi.exe
+D:\PemogramanVisual\Pertemuan2PemVi\Pertemuan2PemVi\bin\Debug\net10.0-windows\Pertemuan2PemVi.deps.json
+D:\PemogramanVisual\Pertemuan2PemVi\Pertemuan2PemVi\bin\Debug\net10.0-windows\Pertemuan2PemVi.runtimeconfig.json
+D:\PemogramanVisual\Pertemuan2PemVi\Pertemuan2PemVi\bin\Debug\net10.0-windows\Pertemuan2PemVi.dll
+D:\PemogramanVisual\Pertemuan2PemVi\Pertemuan2PemVi\bin\Debug\net10.0-windows\Pertemuan2PemVi.pdb
+D:\PemogramanVisual\Pertemuan2PemVi\Pertemuan2PemVi\obj\Debug\net10.0-windows\Pertemuan2PemVi.Form1.resources
+D:\PemogramanVisual\Pertemuan2PemVi\Pertemuan2PemVi\obj\Debug\net10.0-windows\Pertemuan2PemVi.vbproj.GenerateResource.cache
+D:\PemogramanVisual\Pertemuan2PemVi\Pertemuan2PemVi\obj\Debug\net10.0-windows\Pertemuan2PemVi.GeneratedMSBuildEditorConfig.editorconfig
+D:\PemogramanVisual\Pertemuan2PemVi\Pertemuan2PemVi\obj\Debug\net10.0-windows\Pertemuan2PemVi.AssemblyInfoInputs.cache
+D:\PemogramanVisual\Pertemuan2PemVi\Pertemuan2PemVi\obj\Debug\net10.0-windows\Pertemuan2PemVi.AssemblyInfo.vb
+D:\PemogramanVisual\Pertemuan2PemVi\Pertemuan2PemVi\obj\Debug\net10.0-windows\Pertemuan2PemVi.vbproj.CoreCompileInputs.cache
+D:\PemogramanVisual\Pertemuan2PemVi\Pertemuan2PemVi\obj\Debug\net10.0-windows\Pertemuan2PemVi.dll
+D:\PemogramanVisual\Pertemuan2PemVi\Pertemuan2PemVi\obj\Debug\net10.0-windows\refint\Pertemuan2PemVi.dll
+D:\PemogramanVisual\Pertemuan2PemVi\Pertemuan2PemVi\obj\Debug\net10.0-windows\Pertemuan2PemVi.pdb
+D:\PemogramanVisual\Pertemuan2PemVi\Pertemuan2PemVi\obj\Debug\net10.0-windows\Pertemuan2PemVi.genruntimeconfig.cache
+D:\PemogramanVisual\Pertemuan2PemVi\Pertemuan2PemVi\obj\Debug\net10.0-windows\ref\Pertemuan2PemVi.dll
