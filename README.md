@@ -3,32 +3,33 @@
 # ୨୧ Repositori Praktikum Pemrograman Visual ୨୧
 
 <p>
-<img src="https://img.shields.io/badge/PEMROGRAMAN%20VISUAL-VISUAL%20BASIC%20.NET-0078D7?style=for-the-badge&logo=dotnet&logoColor=white">
-<img src="https://img.shields.io/badge/IDE-VISUAL%20STUDIO-5C2D91?style=for-the-badge&logo=visualstudio&logoColor=white">
-<img src="https://img.shields.io/badge/PLATFORM-WINDOWS%20FORMS-00A4EF?style=for-the-badge">
+<img src="https://img.shields.io/badge/Pemrograman%20Visual-Visual%20Basic%20.NET-0078D7?style=for-the-badge&logo=dotnet&logoColor=white" width="300">
+<img src="https://img.shields.io/badge/IDE-Visual%20Studio-5C2D91?style=for-the-badge&logo=visualstudio&logoColor=white" width="250">
+<img src="https://img.shields.io/badge/Platform-Windows%20Forms-00A4EF?style=for-the-badge" width="270">
 </p>
 
 ### ♡ Dokumentasi Praktikum Pemrograman Visual ♡
 
-*Visual Basic .NET · Windows Forms · GUI · Event-Driven Programming*
-
-₊˚⊹♡ ───────────────────────── ♡⊹˚₊
+*Visual Basic .NET • Windows Forms • GUI • Event-Driven Programming*
 
 </div>
 
 ---
 
-## ୨୧ Daftar Isi
+## ♡ Daftar Isi
 
 - ♡ [Pertemuan 1 — Pengenalan Pemrograman Visual](#-pertemuan-1--pengenalan-pemrograman-visual)
-- ♡ [Pertemuan 2 — Komponen Visual & Windows Forms](#-pertemuan-2--komponen-visual--windows-forms)
+- ♡ [Pertemuan 2 — Komponen Visual & Antarmuka Windows Forms](#-pertemuan-2--komponen-visual--antarmuka-windows-forms)
 - ♡ [Pertemuan 3 — Operator, Struktur Pengendalian & Validasi Input](#-pertemuan-3--operator-struktur-pengendalian--validasi-input)
 - ♡ [Teknologi](#-teknologi)
 
 ---
 
 # ୨୧ PERTEMUAN 1
+
 ## ✦ Pengenalan Pemrograman Visual ✦
+
+---
 
 ## ♡ Ringkasan Materi
 
@@ -44,7 +45,7 @@ Setelah tampilan selesai dirancang, programmer kemudian menambahkan **kode progr
 
 ---
 
-## ₊˚⊹ Konsep Dasar Pemrograman Visual
+## ✦ Konsep Dasar Pemrograman Visual ✦
 
 Pemrograman Visual menggabungkan dua bagian utama:
 
@@ -65,7 +66,7 @@ Pemrograman Visual menggabungkan dua bagian utama:
 ┌──────────────────────────────┐
 │      APLIKASI INTERAKTIF     │
 └──────────────────────────────┘
-୨୧ Visual Designer
+♡ Visual Designer
 
 Digunakan untuk mengatur tampilan aplikasi secara visual.
 
@@ -76,19 +77,24 @@ Contohnya:
 ♡ Mengubah warna komponen
 ♡ Mengatur posisi kontrol
 ♡ Mengubah jenis dan ukuran font
-୨୧ Code-Behind
+♡ Code-Behind
 
 Digunakan untuk menentukan perilaku dari komponen visual.
 
-Contoh:
+Contohnya:
 
-Private Sub btnInput_Click(sender As Object, e As EventArgs) Handles btnInput.Click
+Private Sub btnInput_Click(
+    sender As Object,
+    e As EventArgs
+) Handles btnInput.Click
+
     MessageBox.Show("Tombol diklik!")
+
 End Sub
 
 Ketika pengguna menekan tombol btnInput, event Click akan dijalankan dan program menampilkan pesan.
 
-♡ Perbandingan Paradigma Pemrograman
+✦ Perbandingan Paradigma Pemrograman ✦
 Parameter	Pemrograman Konvensional	Pemrograman Visual
 Pembuatan UI	Menulis kode secara manual	Drag-and-drop
 Tampilan	Dilihat setelah program dijalankan	Dapat dilihat melalui Designer
@@ -96,7 +102,7 @@ Fokus	Sintaks dan logika	UI dan logika
 Interaksi	Dikendalikan melalui kode	Berbasis Event
 Perancangan	Lebih banyak dilakukan melalui kode	Dibantu Visual Designer
 Pengembangan	Cenderung lebih manual	Lebih intuitif
-₊˚⊹ Event-Driven Programming
+✦ Event-Driven Programming ✦
 
 Pemrograman Visual menggunakan konsep Event-Driven Programming, yaitu program bekerja berdasarkan kejadian atau tindakan yang dilakukan pengguna.
 
@@ -111,7 +117,7 @@ btnInput_Click dipanggil
 Kode dijalankan
         ↓
 Hasil ditampilkan
-୨୧ Event yang Umum Digunakan
+♡ Event yang Umum Digunakan
 Event	Deskripsi
 Click	Terjadi ketika pengguna mengklik kontrol
 Load	Terjadi ketika Form pertama kali dimuat
@@ -119,9 +125,11 @@ TextChanged	Terjadi ketika isi TextBox mengalami perubahan
 KeyPress	Terjadi ketika pengguna menekan tombol keyboard
 MouseEnter	Terjadi ketika pointer mouse masuk ke area kontrol
 MouseLeave	Terjadi ketika pointer mouse meninggalkan kontrol
-♡ Konsep Object, Property, Method & Event
+✦ Konsep Object, Property, Method & Event ✦
 
 Dalam Windows Forms, setiap komponen dapat dianggap sebagai sebuah object.
+
+Contohnya:
 
 TextBox
    │
@@ -129,32 +137,33 @@ TextBox
    ├── Method   → Clear(), Focus()
    └── Event    → TextChanged, KeyPress
 
-Konsep ini menjadi dasar penting dalam pengembangan aplikasi Windows Forms.
+Konsep ini menjadi dasar penting untuk praktikum berikutnya.
 
-# ୨୧ PERTEMUAN 2
-## ✦ Komponen Visual & Windows Forms ✦
-
-## ♡ Ringkasan Materi
+୨୧ PERTEMUAN 2
+✦ Komponen Visual & Antarmuka Windows Forms ✦
+♡ Ringkasan Materi
 
 Pertemuan kedua membahas pembuatan antarmuka aplikasi menggunakan Windows Forms serta penggunaan berbagai kontrol visual yang tersedia di Visual Studio.
 
 Komponen visual dapat ditambahkan ke Form melalui Toolbox menggunakan metode drag-and-drop.
 
-₊˚⊹ Windows Forms
+✦ Windows Forms ✦
 
 Windows Forms merupakan framework UI yang digunakan untuk membuat aplikasi desktop berbasis Windows.
 
-Komponen utama:
+Dalam Windows Forms terdapat:
 
-♡ Form — container utama
-♡ Label — menampilkan teks
-♡ TextBox — menerima input
-♡ Button — menjalankan perintah
-♡ PictureBox — menampilkan gambar
-୨୧ Komponen Dasar Antarmuka
-Form
+♡ Form sebagai container utama.
+♡ Label untuk menampilkan teks.
+♡ TextBox untuk input.
+♡ Button untuk menjalankan perintah.
+♡ PictureBox untuk menampilkan gambar.
+✦ Komponen Dasar Antarmuka ✦
+♡ Form
 
 Form adalah wadah utama aplikasi tempat seluruh kontrol diletakkan.
+
+Contoh:
 
 ┌─────────────────────────────────┐
 │        DATA MAHASISWA           │
@@ -165,7 +174,7 @@ Form adalah wadah utama aplikasi tempat seluruh kontrol diletakkan.
 │                                 │
 │ [Tampilkan] [Hapus] [Keluar]   │
 └─────────────────────────────────┘
-Label
+♡ Label
 
 Label digunakan untuk menampilkan teks atau informasi statis kepada pengguna.
 
@@ -174,7 +183,7 @@ Contoh:
 Nama :
 NIM  :
 KOM  :
-TextBox
+♡ TextBox
 
 TextBox digunakan sebagai tempat pengguna memasukkan data.
 
@@ -183,7 +192,7 @@ Contoh penamaan:
 txtNama
 txtNIM
 txtKOM
-Button
+♡ Button
 
 Button digunakan sebagai pemicu suatu perintah.
 
@@ -192,14 +201,14 @@ Contoh:
 btnTampilkan
 btnHapus
 btnKeluar
-PictureBox
+♡ PictureBox
 
 PictureBox digunakan untuk menampilkan gambar pada Form.
 
 Contoh:
 
 picImage
-♡ Properties
+✦ Properties ✦
 
 Properties merupakan atribut yang menentukan karakteristik suatu kontrol.
 
@@ -218,7 +227,7 @@ Contoh:
 
 txtNama.Text = "Budi"
 txtNama.BackColor = Color.LightBlue
-✦ Method
+✦ Method ✦
 
 Method merupakan tindakan atau fungsi yang dapat dilakukan oleh suatu object.
 
@@ -232,7 +241,7 @@ Contoh:
 
 txtNama.Clear()
 txtNama.Focus()
-♡ Event Handling
+✦ Event Handling ✦
 
 Event digunakan untuk menjalankan kode ketika suatu kejadian terjadi.
 
@@ -249,7 +258,7 @@ End Sub
 
 Kode tersebut akan dijalankan ketika pengguna mengklik tombol btnTampilkan.
 
-₊˚⊹ Membuat Project Pertama
+✦ Membuat Project Pertama ✦
 Buka Visual Studio.
 Pilih Create a new project.
 Pilih Windows Forms App (.NET Framework).
@@ -261,14 +270,14 @@ Buka Form Designer.
 Tambahkan komponen dari Toolbox.
 Atur Properties.
 Tulis kode event handler.
-୨୧ Shortcut Visual Studio
+♡ Shortcut Visual Studio
 Shortcut	Fungsi
 Ctrl + Alt + X	Membuka Toolbox
 F4	Membuka Properties Window
 F5	Menjalankan Debugging
 Ctrl + S	Menyimpan project
 Ctrl + Z	Undo
-♡ Implementasi Program
+✦ Implementasi Program ✦
 
 Tambahkan:
 
@@ -281,10 +290,11 @@ Gunakan nama:
 txtNama
 txtNIM
 txtKOM
+
 btnTampilkan
 btnHapus
 btnKeluar
-୨୧ Tombol Tampilkan
+♡ Tombol Tampilkan
 Private Sub btnTampilkan_Click(
     sender As Object,
     e As EventArgs
@@ -301,7 +311,7 @@ Private Sub btnTampilkan_Click(
     )
 
 End Sub
-୨୧ Tombol Hapus
+♡ Tombol Hapus
 Private Sub btnHapus_Click(
     sender As Object,
     e As EventArgs
@@ -313,7 +323,7 @@ Private Sub btnHapus_Click(
     txtNama.Focus()
 
 End Sub
-୨୧ Tombol Keluar
+♡ Tombol Keluar
 Private Sub btnKeluar_Click(
     sender As Object,
     e As EventArgs
@@ -333,7 +343,7 @@ Private Sub btnKeluar_Click(
     End If
 
 End Sub
-₊˚⊹ Naming Convention
+✦ Naming Convention ✦
 
 Penamaan kontrol sebaiknya konsisten agar kode mudah dibaca.
 
@@ -352,7 +362,7 @@ Contoh:
 
 btnInput_Click
 txtNilai_KeyPress
-♡ Penggunaan Asset
+✦ Penggunaan Asset ✦
 
 Untuk menggunakan gambar dari folder project:
 
@@ -377,53 +387,56 @@ Pertemuan ketiga membahas dasar logika pemrograman yang digunakan untuk membuat 
 
 Materi meliputi:
 
-✦ Operator aritmatika
-✦ Operator penugasan
-✦ Operator perbandingan
-✦ Operator logika
-✦ Ekspresi
-✦ Increment dan decrement
-✦ Percabangan If
-✦ Select Case
-✦ Operator ternary
-✦ Validasi input
-✦ Konversi data
-✦ Event KeyPress
-✦ Pemrosesan gambar berdasarkan kondisi
-♡ Tiga Pilar Komponen Visual
-୨୧ Property
+♡ Operator aritmatika
+♡ Operator penugasan
+♡ Operator perbandingan
+♡ Operator logika
+♡ Ekspresi
+♡ Increment dan decrement
+♡ Percabangan If
+♡ Select Case
+♡ Operator ternary
+♡ Validasi input
+♡ Konversi data
+♡ Event KeyPress
+♡ Pemrosesan gambar berdasarkan kondisi
+✦ Tiga Pilar Komponen Visual ✦
+♡ Property
 
 Atribut atau karakteristik dari kontrol.
 
 txtNilai.Text
 txtNilai.Visible
 txtNilai.Enabled
-୨୧ Method
+♡ Method
 
 Tindakan yang dapat dilakukan kontrol.
 
 txtNilai.Clear()
 txtNilai.Focus()
-୨୧ Event
+♡ Event
 
 Kejadian yang dapat memicu kode.
 
 btnInput_Click
 txtNilai_KeyPress
-₊˚⊹ Operator VB.NET
+✦ Operator VB.NET ✦
 
 Operator digunakan untuk melakukan operasi terhadap nilai, variabel, maupun ekspresi.
 
-୨୧ Operator Aritmatika
+♡ Operator Aritmatika
+
+Operator aritmatika digunakan untuk melakukan operasi perhitungan matematika.
+
 Operator	Nama	Deskripsi	Contoh	Hasil
 +	Penjumlahan	Menambahkan dua nilai	10 + 5	15
--	Pengurangan	Mengurangi nilai	10 - 5	5
+-	Pengurangan	Mengurangi nilai pertama dengan nilai kedua	10 - 5	5
 *	Perkalian	Mengalikan dua nilai	10 * 5	50
-/	Pembagian	Pembagian numerik	10 / 3	3.333...
-\	Pembagian Bulat	Mengambil hasil bilangan bulat	10 \ 3	3
-Mod	Modulus	Menghasilkan sisa pembagian	10 Mod 3	1
+/	Pembagian	Membagi nilai dan menghasilkan pembagian numerik	10 / 3	3.333...
+\	Pembagian Bulat	Membagi dua nilai dan mengambil hasil bilangan bulat	10 \ 3	3
+Mod	Modulus	Menghasilkan sisa dari operasi pembagian	10 Mod 3	1
 ^	Pangkat	Menghitung nilai pangkat	2 ^ 3	8
-Contoh
+♡ Contoh
 Dim a As Integer = 10
 Dim b As Integer = 3
 
@@ -435,42 +448,46 @@ Dim bulat = a \ b
 Dim sisa = a Mod b
 Dim pangkat = a ^ b
 ♡ Operator Penugasan
+
+Operator penugasan digunakan untuk memberikan atau memperbarui nilai sebuah variabel.
+
 Operator	Deskripsi	Contoh	Hasil
 =	Memberikan nilai ke variabel	x = 10	10
-+=	Menambahkan nilai	x += 5	x + 5
--=	Mengurangi nilai	x -= 5	x - 5
-*=	Mengalikan nilai	x *= 5	x × 5
-/=	Membagi nilai	x /= 5	x ÷ 5
-
-Contoh:
-
++=	Menambahkan nilai ke variabel	x += 5	x + 5
+-=	Mengurangi nilai variabel	x -= 5	x - 5
+*=	Mengalikan nilai variabel	x *= 5	x × 5
+/=	Membagi nilai variabel	x /= 5	x ÷ 5
+♡ Contoh
 Dim x As Integer = 10
 
 x += 5
 x -= 3
 x *= 2
 x /= 4
-✦ Operator Perbandingan
+♡ Operator Perbandingan
 
-Hasil dari operator perbandingan adalah Boolean, yaitu True atau False.
+Operator perbandingan digunakan untuk membandingkan dua nilai.
+
+Hasil dari perbandingan adalah Boolean, yaitu True atau False.
 
 Operator	Nama	Deskripsi	Contoh
 =	Sama dengan	Mengecek apakah dua nilai sama	10 = 10
 <>	Tidak sama	Mengecek apakah dua nilai berbeda	10 <> 5
->	Lebih besar	Mengecek nilai lebih besar	10 > 5
-<	Lebih kecil	Mengecek nilai lebih kecil	5 < 10
->=	Lebih besar/sama	Mengecek lebih besar atau sama	10 >= 10
-<=	Lebih kecil/sama	Mengecek lebih kecil atau sama	5 <= 10
-
-Contoh:
-
+>	Lebih besar	Mengecek apakah nilai kiri lebih besar	10 > 5
+<	Lebih kecil	Mengecek apakah nilai kiri lebih kecil	5 < 10
+>=	Lebih besar/sama	Mengecek nilai lebih besar atau sama	10 >= 10
+<=	Lebih kecil/sama	Mengecek nilai lebih kecil atau sama	5 <= 10
+♡ Contoh
 Dim nilai As Integer = 80
 
 If nilai >= 75 Then
     MessageBox.Show("Lulus")
 End If
-♡ Operator Logika
-And
+✦ Operator Logika ✦
+
+Operator logika digunakan untuk menggabungkan atau membalik kondisi Boolean.
+
+♡ And
 
 Menghasilkan True apabila semua kondisi bernilai True.
 
@@ -482,11 +499,11 @@ True	True	True
 True	False	False
 False	True	False
 False	False	False
-AndAlso
+♡ AndAlso
 
 AndAlso bekerja seperti And, tetapi menggunakan short-circuit evaluation.
 
-Jika kondisi pertama sudah False, kondisi berikutnya tidak perlu dievaluasi.
+Artinya, jika kondisi pertama sudah False, kondisi berikutnya tidak perlu dievaluasi.
 
 If txtNilai.Text <> "" AndAlso
    Integer.TryParse(txtNilai.Text, nilai) Then
@@ -494,7 +511,10 @@ If txtNilai.Text <> "" AndAlso
     MessageBox.Show("Input valid")
 
 End If
-Or
+
+Penggunaan AndAlso umumnya lebih efisien dan aman untuk kondisi yang membutuhkan pemeriksaan bertahap.
+
+♡ Or
 
 Menghasilkan True apabila minimal satu kondisi bernilai True.
 
@@ -506,14 +526,16 @@ True	True	True
 True	False	True
 False	True	True
 False	False	False
-OrElse
+♡ OrElse
 
 OrElse bekerja seperti Or, tetapi menggunakan short-circuit evaluation.
+
+Jika kondisi pertama sudah True, kondisi berikutnya tidak perlu dievaluasi.
 
 If nilai < 0 OrElse nilai > 100 Then
     MessageBox.Show("Nilai tidak valid")
 End If
-Not
+♡ Not
 
 Not digunakan untuk membalik nilai Boolean.
 
@@ -527,34 +549,37 @@ Hasil:
 
 Not True  → False
 Not False → True
-₊˚⊹ Increment & Decrement
-Increment
+✦ Increment & Decrement ✦
+
+Digunakan untuk menambah atau mengurangi nilai variabel secara bertahap.
+
+♡ Increment
 
 Menambahkan nilai sebesar satu:
 
 x += 1
-Decrement
+♡ Decrement
 
 Mengurangi nilai sebesar satu:
 
 x -= 1
-
-Contoh:
-
+♡ Contoh
 Dim counter As Integer = 0
 
 counter += 1
 counter += 1
 counter += 1
 
-Hasil:
+Hasil akhir:
 
 counter = 3
-♡ Ekspresi
+✦ Ekspresi ✦
 
-Ekspresi merupakan kombinasi antara nilai, variabel, dan operator yang menghasilkan sebuah nilai.
+Ekspresi merupakan kombinasi antara:
 
 Nilai + Variabel + Operator
+
+yang menghasilkan sebuah nilai.
 
 Contoh:
 
@@ -566,15 +591,18 @@ Dim hasil As Integer = (a + b) * 2
 Hasil:
 
 30
-୨୧ Struktur Pengendalian
-If...Then
+
+Urutan operasi matematika tetap perlu diperhatikan. Penggunaan tanda kurung dapat digunakan untuk memperjelas prioritas operasi.
+
+✦ Struktur Pengendalian ✦
+♡ If...Then
 
 Digunakan untuk menjalankan kode apabila kondisi bernilai True.
 
 If nilai >= 75 Then
     MessageBox.Show("Lulus")
 End If
-If...Then...Else
+♡ If...Then...Else
 
 Digunakan ketika terdapat dua kemungkinan.
 
@@ -583,7 +611,7 @@ If nilai >= 75 Then
 Else
     MessageBox.Show("Tidak Lulus")
 End If
-If...ElseIf...Else
+♡ If...ElseIf...Else
 
 Digunakan untuk menangani beberapa kondisi.
 
@@ -600,7 +628,7 @@ Else
     grade = "D"
 
 End If
-Select Case
+♡ Select Case
 
 Digunakan untuk memilih tindakan berdasarkan satu nilai yang memiliki beberapa kemungkinan.
 
@@ -622,25 +650,29 @@ End Select
 
 Select Case biasanya lebih mudah dibaca dibandingkan banyak ElseIf apabila kondisi didasarkan pada satu variabel.
 
-Operator Ternary If()
+♡ Operator Ternary If()
 
 Digunakan untuk membuat percabangan sederhana dalam satu baris.
 
 Dim status As String
 
-status = If(nilai >= 75, "Lulus", "Tidak Lulus")
+status = If(
+    nilai >= 75,
+    "Lulus",
+    "Tidak Lulus"
+)
 
 Struktur:
 
 If(kondisi, nilai_jika_true, nilai_jika_false)
-♡ Validasi Input
+✦ Validasi Input ✦
 
 Validasi input digunakan untuk memastikan data yang dimasukkan pengguna sesuai dengan aturan program.
 
 Pada praktikum ini, nilai harus:
 
-Berupa angka
-Berada pada rentang 0–100
+Berupa angka.
+Berada pada rentang 0–100.
 
 Alurnya:
 
@@ -657,7 +689,7 @@ Warning  Cek rentang
        Tidak      Ya
           ↓       ↓
        Warning   Proses
-୨୧ Integer.TryParse
+♡ Integer.TryParse
 
 Integer.TryParse() digunakan untuk mengonversi String menjadi Integer dengan aman.
 
@@ -673,7 +705,7 @@ End If
 
 Keunggulannya adalah program dapat menangani input yang tidak valid tanpa menyebabkan exception konversi yang tidak tertangani.
 
-₊˚⊹ Event KeyPress
+✦ Event KeyPress ✦
 
 KeyPress dapat digunakan untuk memvalidasi input secara langsung ketika pengguna menekan keyboard.
 
@@ -704,7 +736,7 @@ e.Handled = True
 
 berfungsi membatalkan input karakter yang tidak diperbolehkan.
 
-୨୧ Percabangan Berdasarkan Nilai
+✦ Percabangan Berdasarkan Nilai ✦
 
 Program dapat menggunakan nilai yang dimasukkan pengguna untuk menentukan gambar yang ditampilkan.
 
@@ -734,9 +766,10 @@ Else
     )
 
 End If
-♡ Implementasi Program Lengkap
+✦ Implementasi Program Lengkap ✦
 Public Class Form1
 
+    ' Event Handler: Tombol Input
     Private Sub btnInput_Click(
         sender As Object,
         e As EventArgs
@@ -744,6 +777,7 @@ Public Class Form1
 
         Dim nilai As Integer
 
+        ' Validasi konversi data
         If Not Integer.TryParse(txtNilai.Text, nilai) Then
 
             MessageBox.Show(
@@ -758,6 +792,7 @@ Public Class Form1
 
         End If
 
+        ' Validasi rentang nilai
         If nilai < 0 OrElse nilai > 100 Then
 
             MessageBox.Show(
@@ -772,6 +807,7 @@ Public Class Form1
 
         End If
 
+        ' Menentukan gambar berdasarkan nilai
         If nilai <= 50 Then
 
             picImage.Image = Image.FromFile(
@@ -795,6 +831,7 @@ Public Class Form1
     End Sub
 
 
+    ' Event Handler: Validasi input keyboard
     Private Sub txtNilai_KeyPress(
         sender As Object,
         e As KeyPressEventArgs
@@ -810,30 +847,30 @@ Public Class Form1
     End Sub
 
 End Class
-✦ Penjelasan Alur Program
-୨୧ 1. Pengguna memasukkan nilai
+✦ Penjelasan Alur Program ✦
+♡ 1. Pengguna memasukkan nilai
 
 Input diberikan melalui:
 
 txtNilai
-୨୧ 2. Validasi keyboard
+♡ 2. Validasi keyboard
 
 KeyPress membatasi karakter yang dapat dimasukkan.
 
-୨୧ 3. Konversi data
+♡ 3. Konversi data
 
 Integer.TryParse() memastikan input dapat diproses sebagai angka.
 
-୨୧ 4. Validasi rentang
+♡ 4. Validasi rentang
 
 Program memastikan nilai berada di antara:
 
 0 ≤ nilai ≤ 100
-୨୧ 5. Percabangan
+♡ 5. Percabangan
 
 Program memilih gambar berdasarkan nilai.
 
-୨୧ 6. Visual Rendering
+♡ 6. Visual Rendering
 
 Gambar ditampilkan melalui:
 
@@ -852,8 +889,8 @@ GitHub	Repository hosting
 
 ୨୧ Praktikum Pemrograman Visual ୨୧
 
-Learn · Build · Debug · Create
+Learn • Build • Debug • Create
 
-♡ Visual Basic .NET · Windows Forms · GUI ♡
+♡ Visual Basic .NET • Windows Forms • GUI ♡
 
 </div> ```
