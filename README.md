@@ -3,9 +3,9 @@
 # ୨୧ Repositori Praktikum Pemrograman Visual ୨୧
 
 <p>
-<img src="https://img.shields.io/badge/PEMROGRAMAN%20VISUAL-VISUAL%20BASIC%20.NET-0078D7?style=for-the-badge&logo=dotnet&logoColor=white" width="280" height="42">
-<img src="https://img.shields.io/badge/IDE-VISUAL%20STUDIO-5C2D91?style=for-the-badge&logo=visualstudio&logoColor=white" width="280" height="42">
-<img src="https://img.shields.io/badge/PLATFORM-WINDOWS%20FORMS-00A4EF?style=for-the-badge" width="280" height="42">
+<img src="https://img.shields.io/badge/PEMROGRAMAN%20VISUAL-VISUAL%20BASIC%20.NET-0078D7?style=for-the-badge&logo=dotnet&logoColor=white">
+<img src="https://img.shields.io/badge/IDE-VISUAL%20STUDIO-5C2D91?style=for-the-badge&logo=visualstudio&logoColor=white">
+<img src="https://img.shields.io/badge/PLATFORM-WINDOWS%20FORMS-00A4EF?style=for-the-badge">
 </p>
 
 ### ♡ Dokumentasi Praktikum Pemrograman Visual ♡
@@ -20,20 +20,15 @@
 
 ## ୨୧ Daftar Isi
 
-- ✦ [Pertemuan 1 — Pengenalan Pemrograman Visual](#pertemuan-1--pengenalan-pemrograman-visual)
-- ✦ [Pertemuan 2 — Komponen Visual & Windows Forms](#pertemuan-2--komponen-visual--windows-forms)
-- ✦ [Pertemuan 3 — Operator, Struktur Pengendalian & Validasi Input](#pertemuan-3--operator-struktur-pengendalian--validasi-input)
-- ✦ [Teknologi](#teknologi)
+- ♡ [Pertemuan 1 — Pengenalan Pemrograman Visual](#-pertemuan-1--pengenalan-pemrograman-visual)
+- ♡ [Pertemuan 2 — Komponen Visual & Windows Forms](#-pertemuan-2--komponen-visual--windows-forms)
+- ♡ [Pertemuan 3 — Operator, Struktur Pengendalian & Validasi Input](#-pertemuan-3--operator-struktur-pengendalian--validasi-input)
+- ♡ [Teknologi](#-teknologi)
 
 ---
 
-<div align="center">
-
-# ୨୧ PERTEMUAN 1 ୨୧
-
+# ୨୧ PERTEMUAN 1
 ## ✦ Pengenalan Pemrograman Visual ✦
-
-</div>
 
 ## ♡ Ringkasan Materi
 
@@ -76,16 +71,16 @@ Digunakan untuk mengatur tampilan aplikasi secara visual.
 
 Contohnya:
 
-✦ Menambahkan Button
-✦ Mengatur ukuran Form
-✦ Mengubah warna komponen
-✦ Mengatur posisi kontrol
-✦ Mengubah jenis dan ukuran font
+♡ Menambahkan Button
+♡ Mengatur ukuran Form
+♡ Mengubah warna komponen
+♡ Mengatur posisi kontrol
+♡ Mengubah jenis dan ukuran font
 ୨୧ Code-Behind
 
 Digunakan untuk menentukan perilaku dari komponen visual.
 
-Contohnya:
+Contoh:
 
 Private Sub btnInput_Click(sender As Object, e As EventArgs) Handles btnInput.Click
     MessageBox.Show("Tombol diklik!")
@@ -105,7 +100,7 @@ Pengembangan	Cenderung lebih manual	Lebih intuitif
 
 Pemrograman Visual menggunakan konsep Event-Driven Programming, yaitu program bekerja berdasarkan kejadian atau tindakan yang dilakukan pengguna.
 
-Contoh alurnya:
+Contoh:
 
 Pengguna klik Button
         ↓
@@ -128,8 +123,6 @@ MouseLeave	Terjadi ketika pointer mouse meninggalkan kontrol
 
 Dalam Windows Forms, setiap komponen dapat dianggap sebagai sebuah object.
 
-Contohnya:
-
 TextBox
    │
    ├── Property → Text, Name, Size
@@ -138,21 +131,8 @@ TextBox
 
 Konsep ini menjadi dasar penting dalam pengembangan aplikasi Windows Forms.
 
-୨୧ Tujuan Pembelajaran Pertemuan 1
-
-Setelah menyelesaikan pertemuan ini, mahasiswa diharapkan mampu:
-
-♡ Memahami pengertian Pemrograman Visual
-♡ Menjelaskan perbedaan pemrograman visual dan konvensional
-♡ Mengenal konsep GUI
-♡ Memahami Visual Designer
-♡ Memahami code-behind
-♡ Memahami konsep Event-Driven Programming
-♡ Mengenal konsep Object, Property, Method, dan Event
-<div align="center">
-୨୧ PERTEMUAN 2 ୨୧
+୨୧ PERTEMUAN 2
 ✦ Komponen Visual & Windows Forms ✦
-</div>
 ♡ Ringkasan Materi
 
 Pertemuan kedua membahas pembuatan antarmuka aplikasi menggunakan Windows Forms serta penggunaan berbagai kontrol visual yang tersedia di Visual Studio.
@@ -174,8 +154,6 @@ Komponen utama:
 Form
 
 Form adalah wadah utama aplikasi tempat seluruh kontrol diletakkan.
-
-Contoh:
 
 ┌─────────────────────────────────┐
 │        DATA MAHASISWA           │
@@ -275,7 +253,7 @@ Buka Visual Studio.
 Pilih Create a new project.
 Pilih Windows Forms App (.NET Framework).
 Pilih bahasa Visual Basic.
-Berikan nama project, misalnya:
+Berikan nama project:
 Pertemuan2PemVi
 Klik Create.
 Buka Form Designer.
@@ -293,9 +271,9 @@ Ctrl + Z	Undo
 
 Tambahkan:
 
-✦ 3 Label
-✦ 3 TextBox
-✦ 3 Button
+♡ 3 Label
+♡ 3 TextBox
+♡ 3 Button
 
 Gunakan nama:
 
@@ -390,24 +368,8 @@ Copy if newer
 
 Hal ini memastikan file asset tersedia ketika aplikasi dijalankan.
 
-୨୧ Tujuan Pembelajaran Pertemuan 2
-
-Mahasiswa diharapkan mampu:
-
-♡ Mengenal Windows Forms
-♡ Menggunakan Toolbox
-♡ Mendesain Form
-♡ Mengatur Properties
-♡ Memahami Method
-♡ Membuat Event Handler
-♡ Membuat aplikasi GUI sederhana
-♡ Menggunakan MessageBox
-♡ Mengatur penamaan kontrol secara konsisten
-♡ Menggunakan asset eksternal dalam aplikasi
-<div align="center">
-୨୧ PERTEMUAN 3 ୨୧
+୨୧ PERTEMUAN 3
 ✦ Operator, Struktur Pengendalian & Validasi Input ✦
-</div>
 ♡ Ringkasan Materi
 
 Pertemuan ketiga membahas dasar logika pemrograman yang digunakan untuk membuat aplikasi lebih interaktif dan mampu mengambil keputusan berdasarkan input pengguna.
@@ -427,21 +389,21 @@ Materi meliputi:
 ✦ Konversi data
 ✦ Event KeyPress
 ✦ Pemrosesan gambar berdasarkan kondisi
-୨୧ Tiga Pilar Komponen Visual
-1. Property
+♡ Tiga Pilar Komponen Visual
+୨୧ Property
 
 Atribut atau karakteristik dari kontrol.
 
 txtNilai.Text
 txtNilai.Visible
 txtNilai.Enabled
-2. Method
+୨୧ Method
 
 Tindakan yang dapat dilakukan kontrol.
 
 txtNilai.Clear()
 txtNilai.Focus()
-3. Event
+୨୧ Event
 
 Kejadian yang dapat memicu kode.
 
@@ -774,7 +736,6 @@ End If
 ♡ Implementasi Program Lengkap
 Public Class Form1
 
-    ' Event Handler: Tombol Input
     Private Sub btnInput_Click(
         sender As Object,
         e As EventArgs
@@ -782,7 +743,6 @@ Public Class Form1
 
         Dim nilai As Integer
 
-        ' Validasi konversi data
         If Not Integer.TryParse(txtNilai.Text, nilai) Then
 
             MessageBox.Show(
@@ -797,7 +757,6 @@ Public Class Form1
 
         End If
 
-        ' Validasi rentang nilai
         If nilai < 0 OrElse nilai > 100 Then
 
             MessageBox.Show(
@@ -812,7 +771,6 @@ Public Class Form1
 
         End If
 
-        ' Menentukan gambar berdasarkan nilai
         If nilai <= 50 Then
 
             picImage.Image = Image.FromFile(
@@ -836,7 +794,6 @@ Public Class Form1
     End Sub
 
 
-    ' Event Handler: Validasi input keyboard
     Private Sub txtNilai_KeyPress(
         sender As Object,
         e As KeyPressEventArgs
@@ -880,26 +837,7 @@ Program memilih gambar berdasarkan nilai.
 Gambar ditampilkan melalui:
 
 picImage.Image
-♡ Tujuan Pembelajaran Pertemuan 3
-
-Mahasiswa diharapkan mampu:
-
-✦ Memahami konsep operator
-✦ Menggunakan operator aritmatika
-✦ Menggunakan operator penugasan
-✦ Menggunakan operator perbandingan
-✦ Menggunakan operator logika
-✦ Memahami short-circuit dengan AndAlso dan OrElse
-✦ Menggunakan percabangan If
-✦ Menggunakan Select Case
-✦ Menggunakan operator If()
-✦ Melakukan validasi input
-✦ Menggunakan Integer.TryParse()
-✦ Menangani event KeyPress
-✦ Membuat program berdasarkan kondisi input pengguna
-✦ Menampilkan gambar secara dinamis berdasarkan nilai
-<div align="center">
-୨୧ Teknologi ୨୧
+୨୧ Teknologi
 Teknologi	Keterangan
 Visual Basic .NET	Bahasa pemrograman
 Windows Forms	Framework antarmuka desktop
@@ -907,7 +845,7 @@ Visual Studio	Integrated Development Environment
 .NET	Runtime dan library pendukung
 Git	Version control
 GitHub	Repository hosting
-<br>
+<div align="center">
 
 ₊˚⊹♡ ───────────────────────── ♡⊹˚₊
 
