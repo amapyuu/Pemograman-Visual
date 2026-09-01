@@ -1,24 +1,20 @@
-# Repositori Praktikum Pemrograman Visual
+Repositori Praktikum Pemrograman Visual
 
-<p align="center">
+<div align="center">
 
-  <img src="https://img.shields.io/badge/Pemrograman%20Visual-Visual%20Basic%20.NET-0078D7?style=for-the-badge&logo=dotnet&logoColor=white">
+<img src="https://img.shields.io/badge/Pemrograman%20Visual-Visual%20Basic%20.NET-0078D7?style=for-the-badge&logo=dotnet&logoColor=white" width="300">
+&nbsp;&nbsp;
+<img src="https://img.shields.io/badge/IDE-Visual%20Studio-5C2D91?style=for-the-badge&logo=visualstudio&logoColor=white" width="250">
+&nbsp;&nbsp;
+<img src="https://img.shields.io/badge/Platform-Windows%20Forms-00A4EF?style=for-the-badge" width="270">
 
-  <img src="https://img.shields.io/badge/IDE-Visual%20Studio-5C2D91?style=for-the-badge&logo=visualstudio&logoColor=white">
+<br>
 
-  <img src="https://img.shields.io/badge/Platform-Windows%20Forms-00A4EF?style=for-the-badge">
+Dokumentasi Praktikum Pemrograman Visual
 
-</p>
+Visual Basic .NET • Windows Forms • GUI • Event-Driven Programming
 
-<p align="center">
-
-  <b> Dokumentasi Praktikum Pemrograman Visual</b><br>
-
-  <i>Visual Basic .NET • Windows Forms • GUI • Event-Driven Programming</i>
-
-</p>
-
----
+</div>
 
 ## 📑 Daftar Isi
 
