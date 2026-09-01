@@ -131,9 +131,10 @@ TextBox
 
 Konsep ini menjadi dasar penting dalam pengembangan aplikasi Windows Forms.
 
-୨୧ PERTEMUAN 2
-✦ Komponen Visual & Windows Forms ✦
-♡ Ringkasan Materi
+# ୨୧ PERTEMUAN 2
+## ✦ Komponen Visual & Windows Forms ✦
+
+## ♡ Ringkasan Materi
 
 Pertemuan kedua membahas pembuatan antarmuka aplikasi menggunakan Windows Forms serta penggunaan berbagai kontrol visual yang tersedia di Visual Studio.
 
