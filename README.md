@@ -3,9 +3,9 @@
 # ୨୧ Repositori Praktikum Pemrograman Visual ୨୧
 
 <p>
-<img src="https://img.shields.io/badge/Pemrograman%20Visual-Visual%20Basic%20.NET-0078D7?style=for-the-badge&logo=dotnet&logoColor=white" width="300">
+<img src="https://img.shields.io/badge/Pemrograman%20Visual-Visual%20Basic%20.NET-0078D7?style=for-the-badge&logo=dotnet&logoColor=white" width="400">
 <img src="https://img.shields.io/badge/IDE-Visual%20Studio-5C2D91?style=for-the-badge&logo=visualstudio&logoColor=white" width="200">
-<img src="https://img.shields.io/badge/Platform-Windows%20Forms-00A4EF?style=for-the-badge" width="270">
+<img src="https://img.shields.io/badge/Platform-Windows%20Forms-00A4EF?style=for-the-badge" width="260">
 </p>
 
 ### ♡ Dokumentasi Praktikum Pemrograman Visual ♡
